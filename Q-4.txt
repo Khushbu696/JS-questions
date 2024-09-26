@@ -1,0 +1,14 @@
+function check(char) {
+    char = char.toLowerCase();
+    if (['a', 'e', 'i', 'o', 'u'].includes(char)) {
+      console.log("it is vowel")
+    }
+    else if (char >= 'a' && char <= 'z') {
+        console.log("it is a consonant");
+    }
+    else {
+        console.log("not valid alphabet character");
+    }
+}
+
+(check('A'));
