@@ -1,0 +1,22 @@
+let light = "red";
+
+function checktraffic(light){
+    const str1 = "red";
+    const str2 = "yellow";
+    const str3 = "green";
+    
+    if(light===str1){
+        console.log("stop")
+    }
+    else if(light===str2){
+        console.log("slow down");
+    }
+    else if(light===str3){
+        console.log("go");
+    }
+    else{
+        console.log("invalid traffic light")
+    }
+}
+
+checktraffic(light);

@@ -1,0 +1,11 @@
+let num1 = 1;
+let num2 = 5;
+let arr = [];
+let next = 0;
+
+for(let i=0; i<num2; i++){
+    temp = i;
+    next = temp + 1;
+    arr.push(next);
+}
+console.log(arr);
